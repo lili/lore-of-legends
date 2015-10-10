@@ -12,7 +12,7 @@
 /* -------------------------------------
 				Lore
 --------------------------------------- */
-generated_lore {
+#generated_lore {
 	font-size: 2rem;
 	color: black;
 	padding: 3em;

@@ -288,8 +288,3 @@ var make_lore = function (min_length) {
     if (lore.length < min_length) return make_lore(min_length);
     return lore.join(' ');
 };
-
-    $('#generate').click(function (e) {
-    var lore = make_lore(35);
-    $('#generated_lore').html(lore);
-});
