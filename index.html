@@ -7,10 +7,18 @@
     <title>Lore of Legends</title>
 </head>
 <body>
-    //Reminder to add a Markov Chain Title Generator to go along with this. Would be fun.
     <div id = "header">Lore</div>
+    <p id = "generated_title"> <p>
     <p id = "generated_lore"></p>
     <button id = "generate">Generate</button>
 <script src="markovedLore.js"></script>
+<script type="text/javascript">
+$('#generate').click(function (e) {
+    var lore = make_lore(30);
+    //var title = make_title(2);
+    $('#generated_lore').html(lore);
+    //$('#generated_title').html(title);
+    });
+</script>
 </body>
 </html>
